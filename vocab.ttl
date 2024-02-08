@@ -13,9 +13,13 @@
     dcterms:title "marketing en entreprise" .
 
 marketing:service a rdfs:class ;
-    rdfs:label "outbound" ;
+    rdfs:label "service" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-
+marketing:hasservice a rdf:Property ;
+    rdfs:label "A comme outbound" ;
+    rdfs:comment "Strategie en marketing" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
