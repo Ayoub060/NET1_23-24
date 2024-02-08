@@ -12,7 +12,7 @@
 <https://jardindesconnaissances.univ-paris8.fr/onto/marketing> a owl:Ontology ;
     dcterms:title "marketing en entreprise" .
 
-marketing:Departement a rdfs:class ;
+marketing:service a rdfs:class ;
     rdfs:label "outbound" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
