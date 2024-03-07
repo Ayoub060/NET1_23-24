@@ -17,11 +17,6 @@ marketing:service a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:techniques a rdf:Property ;
-    rdfs:label "techniques" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
 marketing:outbound a rdfs:Class ;
     rdfs:label "Outbound" ;
     rdfs:domain o:Resource ;
@@ -37,11 +32,35 @@ marketing:kpi a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+marketing:crm a rdf:Class ;
+    rdfs:label "crm" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+marketing:btob a rdfs:Class ;
+    rdfs:label "btob" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+marketing:emailing a rdfs:Class ;
+    rdfs:label "emailing" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 marketing:persona a rdf:Property ;
     rdfs:label "persona" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+marketing:techniques a rdf:Property ;
+    rdfs:label "techniques" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+marketing:landing page a rdf:Property ;
+    rdfs:label "techniques" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
 
 
