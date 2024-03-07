@@ -17,9 +17,14 @@ marketing:service a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hasservice a rdf:Class ;
-    rdfs:label "A comme outbound" ;
-    rdfs:comment "Strategie en marketing" ;
+marketing:ecommerce a rdfs:Class ;
+    rdfs:label "ecommerce" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+marketing:hasservice a rdf:Property;
+    rdfs:label "A comme service" ;
+    rdfs:comment "Relation avec ecommerce" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
