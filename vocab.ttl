@@ -25,12 +25,12 @@ marketing:techniques a rdf:Property ;
 marketing:outbound a rdfs:Class ;
     rdfs:label "Outbound" ;
     rdfs:domain o:Resource ;
-    vs:term_status "experimental"
+    vs:term_status "experimental" .
 
 marketing:inbound a rdfs:Class ;
     rdfs:label "inbound" ;
     rdfs:domain o:Resource ;
-    vs:term_status "experimental"
+    vs:term_status "experimental" .
 
 marketing:kpi a rdfs:Class ;
     rdfs:label "kpi" ;
