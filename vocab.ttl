@@ -17,29 +17,31 @@ marketing:service a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:ecommerce a rdfs:Class ;
-    rdfs:label "ecommerce" ;
+marketing:techniques a rdf:Property ;
+    rdfs:label "techniques" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hasservice a rdf:Property;
-    rdfs:label "A comme service" ;
-    rdfs:comment "Relation avec ecommerce" ;
+marketing:outbound a rdfs:Class ;
+    rdfs:label "Outbound" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental"
+
+marketing:inbound a rdfs:Class ;
+    rdfs:label "inbound" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental"
+
+marketing:kpi a rdfs:Class ;
+    rdfs:label "kpi" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hasservice a rdfs:Class ; 
-    rdfs:label "A comme landing page" ;
-    rdfs:comment "Strategie en marketing" ;
+marketing:persona a rdf:Property ;
+    rdfs:label "persona" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hasservice a rdfs:Class ;
-    rdfs:label "A comme crm marketing" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
 
-marketing:hasservice a rdfs:Proprety ;
-    rdfs:label "A comme btob marketing " ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
+
+
