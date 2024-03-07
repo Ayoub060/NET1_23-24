@@ -64,13 +64,13 @@ marketing:landing:page a rdf:Property ;
 
 marketing:hasnom a rdf:Property ;
     rdfs:label "A comme Nom" ;
-    rdfs:comment "Relation avec Nom" ;
+    rdfs:comment "Relation avec Persona" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 marketing:hasprenom a rdf:Property ;
     rdfs:label "A comme Prénom " ;
-    rdfs:comment "Relation avec Nom" ;
+    rdfs:comment "Relation avec Persona" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
