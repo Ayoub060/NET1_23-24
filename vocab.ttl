@@ -57,7 +57,7 @@ marketing:techniques a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:landing page a rdf:Property ;
+marketing:landing:page a rdf:Property ;
     rdfs:label "landing page" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
