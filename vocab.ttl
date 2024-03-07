@@ -23,44 +23,55 @@ marketing:outbound a rdfs:Class ;
     vs:term_status "experimental" .
 
 marketing:inbound a rdfs:Class ;
-    rdfs:label "inbound" ;
+    rdfs:label "Inbound" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 marketing:kpi a rdfs:Class ;
-    rdfs:label "kpi" ;
+    rdfs:label "KPI" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 marketing:crm a rdf:Class ;
-    rdfs:label "crm" ;
+    rdfs:label "CRM" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 marketing:btob a rdfs:Class ;
-    rdfs:label "btob" ;
+    rdfs:label "Btob" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 marketing:emailing a rdfs:Class ;
-    rdfs:label "emailing" ;
+    rdfs:label "Emailing" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 marketing:persona a rdf:Property ;
-    rdfs:label "persona" ;
+    rdfs:label "Persona" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 marketing:techniques a rdf:Property ;
-    rdfs:label "techniques" ;
+    rdfs:label "Techniques" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 marketing:landing:page a rdf:Property ;
-    rdfs:label "landing page" ;
+    rdfs:label "Landing page" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+marketing:hasnom a rdf:Property ;
+    rdfs:label "A comme Nom" ;
+    rdfs:comment "Relation avec Nom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+marketing:hasprenom a rdf:Property ;
+    rdfs:label "A comme Prénom " ;
+    rdfs:comment "Relation avec Nom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
 
