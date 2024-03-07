@@ -23,3 +23,9 @@ marketing:hasservice a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+marketing:hasservice a rdf:class ;
+    rdfs:label "A comme landing page" ;
+    rdfs:comment "strategie en marketing" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
