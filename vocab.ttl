@@ -17,15 +17,24 @@ marketing:service a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hasservice a rdf:Property ;
+marketing:hasservice a rdf:Class ;
     rdfs:label "A comme outbound" ;
     rdfs:comment "Strategie en marketing" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hasservice a rdf:class ;
+marketing:hasservice a rdfs:Class ; 
     rdfs:label "A comme landing page" ;
-    rdfs:comment "strategie en marketing" ;
+    rdfs:comment "Strategie en marketing" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+marketing:hasservice a rdfs:Class ;
+    rdfs:label "A comme crm marketing" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+marketing:hasservice a rdfs:Proprety ;
+    rdfs:label "A comme btob marketing " ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
