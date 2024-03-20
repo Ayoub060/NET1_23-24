@@ -47,6 +47,11 @@ marketing:emailing a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+marketing:compagne marketing a rdfs:Class ;
+    rdfs:label "Compagne Marketing" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 marketing:persona a rdf:Property ;
     rdfs:label "Persona" ;
     rdfs:domain o:Resource ;
@@ -74,4 +79,26 @@ marketing:hasprenom a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+marketing:hasobjectifs a rdf:Property ;
+    rdfs:label "A comme Objectifs " ;
+    rdfs:comment "Relation avec Compagne Marketing" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+marketing:hasleads a rdf:Property ;
+    rdfs:label "A comme Leads " ;
+    rdfs:comment "Relation avec Compagne Marketing" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+marketing:hascout a rdf:Property ;
+    rdfs:label "A comme Coût " ;
+    rdfs:comment "Relation avec Compagne Marketing" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+marketing:hasproduit a rdf:Property ;
+    rdfs:label "A comme Produit " ;
+    rdfs:comment "Relation avec Compagne Marketing" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
