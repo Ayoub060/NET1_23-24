@@ -52,6 +52,11 @@ marketing:compagne marketing a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+marketing:webinaire a rdfs:Class ;
+    rdfs:label "Webinaire" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 marketing:persona a rdf:Property ;
     rdfs:label "Persona" ;
     rdfs:domain o:Resource ;
@@ -100,5 +105,17 @@ marketing:hascout a rdf:Property ;
 marketing:hasproduit a rdf:Property ;
     rdfs:label "A comme Produit " ;
     rdfs:comment "Relation avec Compagne Marketing" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+marketing:hasdate a rdf:Property ;
+    rdfs:label "A comme Date " ;
+    rdfs:comment "Relation avec Webinaire" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+marketing:hassujet a rdf:Property ;
+    rdfs:label "A comme Sujet " ;
+    rdfs:comment "Relation avec Webinaire" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
