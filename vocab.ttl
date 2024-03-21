@@ -47,7 +47,7 @@ marketing:emailing a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:compagne marketing a rdfs:Class ;
+marketing:compagnemarketing a rdfs:Class ;
     rdfs:label "Compagne Marketing" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
