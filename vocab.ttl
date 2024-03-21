@@ -44,7 +44,7 @@ marketing:btob a rdfs:Class ;
 
 marketing:emailing a rdfs:Class ;
     rdfs:label "Emailing" ;
-    rdfs:domain o:Resource ;
+    rdfs:domain o:Resource ; 
     vs:term_status "experimental" .
 
 marketing:compagnemarketing a rdfs:Class ;
