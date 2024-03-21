@@ -57,7 +57,7 @@ marketing:webinaire a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:persona a rdf:Property ;
+marketing:persona a rdf:Class ;
     rdfs:label "Persona" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
