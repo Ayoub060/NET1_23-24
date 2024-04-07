@@ -67,55 +67,47 @@ marketing:techniques a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:landing:page a rdf:Property ;
+marketing:landing:page a rdf:Class ;
     rdfs:label "Landing page" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hasnom a rdf:Property ;
-    rdfs:label "A comme Nom" ;
-    rdfs:comment "Relation avec Persona" ;
+marketing:nom a rdf:Class ;
+    rdfs:label "Nom" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hasprenom a rdf:Property ;
-    rdfs:label "A comme Prénom " ;
-    rdfs:comment "Relation avec Persona" ;
+marketing:prenom a rdf:Class ;
+    rdfs:label "Prénom" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hasobjectifs a rdf:Property ;
-    rdfs:label "A comme Objectifs " ;
-    rdfs:comment "Relation avec Compagne Marketing" ;
+marketing:objectifs a rdf:Class ;
+    rdfs:label "Objectifs " ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hasleads a rdf:Property ;
-    rdfs:label "A comme Leads " ;
-    rdfs:comment "Relation avec Compagne Marketing" ;
+marketing:leads a rdf:Class ;
+    rdfs:label "Leads" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hascout a rdf:Property ;
-    rdfs:label "A comme Coût " ;
-    rdfs:comment "Relation avec Compagne Marketing" ;
+marketing:cout a rdf:Class ;
+    rdfs:label "Coût " ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hasproduit a rdf:Property ;
-    rdfs:label "A comme Produit " ;
-    rdfs:comment "Relation avec Compagne Marketing" ;
+marketing:produit a rdf:Class ;
+    rdfs:label "Produit " ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hasdate a rdf:Property ;
-    rdfs:label "A comme Date " ;
-    rdfs:comment "Relation avec Webinaire" ;
+marketing:date a rdf:Class ;
+    rdfs:label "Date" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-marketing:hassujet a rdf:Property ;
-    rdfs:label "A comme Sujet " ;
-    rdfs:comment "Relation avec Webinaire" ;
+marketing:sujet a rdf:Class ;
+    rdfs:label "Sujet" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
