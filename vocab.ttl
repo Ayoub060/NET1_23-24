@@ -33,7 +33,7 @@ marketing:inbound a rdfs:Class ;
     vs:term_status "experimental" .
 
 marketing:crm a rdf:Class ;
-    rdfs:label "CRM" ;
+    rdfs:label "Crm" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -58,7 +58,7 @@ marketing:compagnemarketing a rdfs:Class ;
     vs:term_status "experimental" .
 
 marketing:objectifs a rdf:Class ;
-    rdfs:label "Objectifs " ;
+    rdfs:label "Objectifs" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -68,12 +68,12 @@ marketing:leads a rdf:Class ;
     vs:term_status "experimental" .
 
 marketing:cout a rdf:Class ;
-    rdfs:label "Coût " ;
+    rdfs:label "Coût" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 marketing:produit a rdf:Class ;
-    rdfs:label "Produit " ;
+    rdfs:label "Produit" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
