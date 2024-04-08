@@ -12,85 +12,114 @@
 <https://jardindesconnaissances.univ-paris8.fr/onto/marketing> a owl:Ontology ;
     dcterms:title "marketing en entreprise" .
 
-marketing:Persona a rdfs:Class ;
+marketing:Nom a owl:Class ;
+    rdfs:label "Nom" .
+
+marketing:Prenom a owl:Class ;
+    rdfs:label "Prenom" .
+
+marketing:Persona a owl:Class ;
     rdfs:label "Persona" .
 
-marketing:NOM a rdf:Property ;
-    rdfs:label "NOM" ;
-    rdfs:domain marketing:Persona ;
-    vs:term_status "experimental" .
-
-marketing:PRENOM a rdf:Property ;
-    rdfs:label "PRENOM" ;
-    rdfs:domain marketing:Persona ;
-    vs:term_status "experimental" .
-
-marketing:SourceActionMarketing a rdf:Property ;
-    rdfs:label "SOURCE ACTION MARKETING" ;
-    rdfs:domain marketing:Persona ;
-    vs:term_status "experimental" .
-
-marketing:SourceActionMarketing a rdfs:Class ;
+marketing:SourceActionMarketing a owl:Class ;
     rdfs:label "Source Action Marketing" .
 
-marketing:outbound a rdf:Property ;
-    rdfs:label "outbound" ;
-    rdfs:domain marketing:SourceActionMarketing ;
-    vs:term_status "experimental" .
-
-marketing:inbound a rdf:Property ;
-    rdfs:label "inbound" ;
-    rdfs:domain marketing:SourceActionMarketing ;
-    vs:term_status "experimental" .
-
-marketing:CompagneMarketing a rdfs:Class ;
+marketing:CompagneMarketing a owl:Class ;
     rdfs:label "Compagne Marketing" .
 
-marketing:objectifs a rdf:Property ;
-    rdfs:label "objectifs" ;
-    rdfs:domain marketing:CompagneMarketing ;
-    vs:term_status "experimental" .
+marketing:Objectifs a owl:Class ;
+    rdfs:label "Objectifs" .
 
-marketing:cible a rdf:Property ;
-    rdfs:label "cible" ;
-    rdfs:domain marketing:CompagneMarketing ;
-    vs:term_status "experimental" .
+marketing:Cible a owl:Class ;
+    rdfs:label "Cible" .
 
-marketing:cout a rdf:Property ;
-    rdfs:label "cout" ;
-    rdfs:domain marketing:CompagneMarketing ;
-    vs:term_status "experimental" .
+marketing:Cout a owl:Class ;
+    rdfs:label "Cout" .
 
-marketing:produit a rdf:Property ;
-    rdfs:label "produit" ;
-    rdfs:domain marketing:CompagneMarketing ;
-    vs:term_status "experimental" .
+marketing:Produit a owl:Class ;
+    rdfs:label "Produit" .
 
-marketing:date a rdf:Property ;
-    rdfs:label "date" ;
-    rdfs:domain marketing:CompagneMarketing ;
-    vs:term_status "experimental" .
+marketing:Concurrent a owl:Class ;
+    rdfs:label "Concurrent" .
 
-marketing:concurrent a rdf:Property ;
-    rdfs:label "concurrent" ;
-    rdfs:domain marketing:CompagneMarketing ;
-    vs:term_status "experimental" .
-
-marketing:Webinaire a rdfs:Class ;
+marketing:Webinaire a owl:Class ;
     rdfs:label "Webinaire" .
 
-marketing:Date a rdf:Property ;
+marketing:Date a owl:Class ;
+    rdfs:label "Date" .
+
+marketing:Sujet a owl:Class ;
+    rdfs:label "Sujet" .
+
+marketing:Service a owl:Class ;
+    rdfs:label "Service" .
+
+# Définition des propriétés
+marketing:nomPropriete a owl:ObjectProperty ;
+    rdfs:label "Nom" ;
+    rdfs:domain marketing:Persona ;
+    rdfs:range marketing:Nom .
+
+marketing:prenomPropriete a owl:ObjectProperty ;
+    rdfs:label "Prenom" ;
+    rdfs:domain marketing:Persona ;
+    rdfs:range marketing:Prenom .
+
+marketing:sourceActionPropriete a owl:ObjectProperty ;
+    rdfs:label "Source Action Marketing" ;
+    rdfs:domain marketing:Persona ;
+    rdfs:range marketing:SourceActionMarketing .
+
+marketing:outboundPropriete a owl:ObjectProperty ;
+    rdfs:label "Outbound" ;
+    rdfs:domain marketing:SourceActionMarketing .
+
+marketing:inboundPropriete a owl:ObjectProperty ;
+    rdfs:label "Inbound" ;
+    rdfs:domain marketing:SourceActionMarketing .
+
+marketing:objectifsPropriete a owl:ObjectProperty ;
+    rdfs:label "Objectifs" ;
+    rdfs:domain marketing:CompagneMarketing ;
+    rdfs:range marketing:Objectifs .
+
+marketing:ciblePropriete a owl:ObjectProperty ;
+    rdfs:label "Cible" ;
+    rdfs:domain marketing:CompagneMarketing ;
+    rdfs:range marketing:Cible .
+
+marketing:coutPropriete a owl:ObjectProperty ;
+    rdfs:label "Cout" ;
+    rdfs:domain marketing:CompagneMarketing ;
+    rdfs:range marketing:Cout .
+
+marketing:produitPropriete a owl:ObjectProperty ;
+    rdfs:label "Produit" ;
+    rdfs:domain marketing:CompagneMarketing ;
+    rdfs:range marketing:Produit .
+
+marketing:datePropriete a owl:ObjectProperty ;
+    rdfs:label "Date" ;
+    rdfs:domain marketing:CompagneMarketing ;
+    rdfs:range marketing:Date .
+
+marketing:concurrentPropriete a owl:ObjectProperty ;
+    rdfs:label "Concurrent" ;
+    rdfs:domain marketing:CompagneMarketing ;
+    rdfs:range marketing:Concurrent .
+
+marketing:dateProprieteWebinaire a owl:ObjectProperty ;
     rdfs:label "Date" ;
     rdfs:domain marketing:Webinaire ;
-    vs:term_status "experimental" .
+    rdfs:range marketing:Date .
 
-marketing:Sujet a rdf:Property ;
+marketing:sujetProprieteWebinaire a owl:ObjectProperty ;
     rdfs:label "Sujet" ;
     rdfs:domain marketing:Webinaire ;
-    vs:term_status "experimental" .
+    rdfs:range marketing:Sujet .
 
-marketing:Service a rdf:Property ;
+marketing:serviceProprieteWebinaire a owl:ObjectProperty ;
     rdfs:label "Service" ;
     rdfs:domain marketing:Webinaire ;
-    vs:term_status "experimental" .
+    rdfs:range marketing:Service .
  
