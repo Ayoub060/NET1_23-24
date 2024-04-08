@@ -12,97 +12,85 @@
 <https://jardindesconnaissances.univ-paris8.fr/onto/marketing> a owl:Ontology ;
     dcterms:title "marketing en entreprise" .
 
-marketing:service a rdfs:Class ;
-    rdfs:label "service" ;
-    rdfs:domain o:Resource ;
+marketing:Persona a rdfs:Class ;
+    rdfs:label "Persona" .
+
+marketing:NOM a rdf:Property ;
+    rdfs:label "NOM" ;
+    rdfs:domain marketing:Persona ;
     vs:term_status "experimental" .
 
-marketing:techniques a rdf:Class ;
-    rdfs:label "Techniques" ;
-    rdfs:domain o:Resource ;
+marketing:PRENOM a rdf:Property ;
+    rdfs:label "PRENOM" ;
+    rdfs:domain marketing:Persona ;
     vs:term_status "experimental" .
 
-marketing:outbound a rdfs:Class ;
-    rdfs:label "Outbound" ;
-    rdfs:domain o:Resource ;
+marketing:SourceActionMarketing a rdf:Property ;
+    rdfs:label "SOURCE ACTION MARKETING" ;
+    rdfs:domain marketing:Persona ;
     vs:term_status "experimental" .
 
-marketing:inbound a rdfs:Class ;
-    rdfs:label "Inbound" ;
-    rdfs:domain o:Resource ;
+marketing:SourceActionMarketing a rdfs:Class ;
+    rdfs:label "Source Action Marketing" .
+
+marketing:outbound a rdf:Property ;
+    rdfs:label "outbound" ;
+    rdfs:domain marketing:SourceActionMarketing ;
     vs:term_status "experimental" .
 
-marketing:crm a rdf:Class ;
-    rdfs:label "Crm" ;
-    rdfs:domain o:Resource ;
+marketing:inbound a rdf:Property ;
+    rdfs:label "inbound" ;
+    rdfs:domain marketing:SourceActionMarketing ;
     vs:term_status "experimental" .
 
-marketing:identifiant a rdf:Class ;
-    rdfs:label "Identifiant" ;
-    rdfs:domain o:Resource ;
+marketing:CompagneMarketing a rdfs:Class ;
+    rdfs:label "Compagne Marketing" .
+
+marketing:objectifs a rdf:Property ;
+    rdfs:label "objectifs" ;
+    rdfs:domain marketing:CompagneMarketing ;
     vs:term_status "experimental" .
 
-marketing:motdepasse a rdf:Class ;
-    rdfs:label "Mot de Passe" ;
-    rdfs:domain o:Resource ;
+marketing:cible a rdf:Property ;
+    rdfs:label "cible" ;
+    rdfs:domain marketing:CompagneMarketing ;
     vs:term_status "experimental" .
 
-marketing:notifications a rdf:Class ;
-    rdfs:label "Notifications" ;
-    rdfs:domain o:Resource ;
+marketing:cout a rdf:Property ;
+    rdfs:label "cout" ;
+    rdfs:domain marketing:CompagneMarketing ;
     vs:term_status "experimental" .
 
-marketing:compagnemarketing a rdfs:Class ;
-    rdfs:label "Compagne Marketing" ;
-    rdfs:domain o:Resource ;
+marketing:produit a rdf:Property ;
+    rdfs:label "produit" ;
+    rdfs:domain marketing:CompagneMarketing ;
     vs:term_status "experimental" .
 
-marketing:objectifs a rdf:Class ;
-    rdfs:label "Objectifs" ;
-    rdfs:domain o:Resource ;
+marketing:date a rdf:Property ;
+    rdfs:label "date" ;
+    rdfs:domain marketing:CompagneMarketing ;
     vs:term_status "experimental" .
 
-marketing:leads a rdf:Class ;
-    rdfs:label "Leads" ;
-    rdfs:domain o:Resource ;
+marketing:concurrent a rdf:Property ;
+    rdfs:label "concurrent" ;
+    rdfs:domain marketing:CompagneMarketing ;
     vs:term_status "experimental" .
 
-marketing:cout a rdf:Class ;
-    rdfs:label "Coût" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
+marketing:Webinaire a rdfs:Class ;
+    rdfs:label "Webinaire" .
 
-marketing:produit a rdf:Class ;
-    rdfs:label "Produit" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-marketing:webinaire a rdfs:Class ;
-    rdfs:label "Webinaire" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-marketing:persona a rdf:Class ;
-    rdfs:label "Persona" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-marketing:nom a rdf:Class ;
-    rdfs:label "Nom" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-marketing:prenom a rdf:Class ;
-    rdfs:label "Prénom" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-marketing:date a rdf:Class ;
+marketing:Date a rdf:Property ;
     rdfs:label "Date" ;
-    rdfs:domain o:Resource ;
+    rdfs:domain marketing:Webinaire ;
     vs:term_status "experimental" .
 
-marketing:sujet a rdf:Class ;
+marketing:Sujet a rdf:Property ;
     rdfs:label "Sujet" ;
-    rdfs:domain o:Resource ;
+    rdfs:domain marketing:Webinaire ;
     vs:term_status "experimental" .
+
+marketing:Service a rdf:Property ;
+    rdfs:label "Service" ;
+    rdfs:domain marketing:Webinaire ;
+    vs:term_status "experimental" .
+ 
