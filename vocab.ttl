@@ -30,6 +30,12 @@ marketing:CompagneMarketing a owl:Class ;
 marketing:Objectifs a owl:Class ;
     rdfs:label "Objectifs" .
 
+marketing:Outbound a owl:Class ;
+    rdfs:label "Outbound" .
+
+marketing:Inbound a owl:Class ;
+    rdfs:label "Inbound" .
+
 marketing:Cible a owl:Class ;
     rdfs:label "Cible" .
 
