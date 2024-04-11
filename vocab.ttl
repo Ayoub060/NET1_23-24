@@ -60,7 +60,6 @@ marketing:Sujet a owl:Class ;
 marketing:Service a owl:Class ;
     rdfs:label "Service" .
 
-# Définition des propriétés
 marketing:nomPropriete a owl:ObjectProperty ;
     rdfs:label "Nom" ;
     rdfs:domain marketing:Persona ;
